@@ -7,18 +7,18 @@ TonyClass TONY;
 tonyGPIO _tonyio;
 
 const DRAM_ATTR tony_slot_t tony_slot[12] = {
-	{IO0, AIO0, Serial1},	// SLOT1
-	{IO1, AIO1, Serial1},	// SLOT1_U
-	{IO2, AIO2, Serial1},	// SLOT2
-	{IO3, AIO3, Serial1},	// SLOT2_U
-	{IO4, AIO4, Serial1},	// SLOT3
-	{IO5, AIO5, Serial1},	// SLOT3_U
-	{IO6, AIO6, Serial2},	// SLOT4
-	{IO7, AIO7, Serial2},	// SLOT4_U
-	{IO8, AIO8, Serial2},	// SLOT5
-	{IO9, AIO9, Serial2},	// SLOT5_U
-	{IO10, AIO10, Serial2},	// SLOT6
-	{IO11, AIO11, Serial2}	// SLOT6_U
+	{25, 47, Serial1},	// SLOT1
+	{26, 46, Serial1},	// SLOT1_U
+	{27, 49, Serial1},	// SLOT2
+	{14, 48, Serial1},	// SLOT2_U
+	{57, 51, Serial1},	// SLOT3
+	{56, 50, Serial1},	// SLOT3_U
+	{52, 41, Serial2},	// SLOT4
+	{53, 40, Serial2},	// SLOT4_U
+	{54, 42, Serial2},	// SLOT5
+	{55, 43, Serial2},	// SLOT5_U
+	{ 4, 44, Serial2},	// SLOT6
+	{13, 45, Serial2}	// SLOT6_U
 };
 
 void TonyClass::begin() {

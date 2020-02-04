@@ -10,10 +10,10 @@
       },
       "platforms": [
         {
-          "name": "TonySX E32",
-          "architecture": "Tony",
+          "name": "ESP32",
+          "architecture": "esp32",
           "version": "1.0.0-beta",
-          "category": "TONY",
+          "category": "ESP32",
           "help": {
             "online": ""
           },
@@ -22,6 +22,9 @@
           "checksum": "SHA-256:ff4cef950028a0cd2fbf5edcdbc5170ef12ab019eba9c3dbeb5614e700629790",
           "size": "35954391",
           "boards": [
+            {"name": "ESP32 Dev Module"},
+            {"name": "WEMOS LoLin32"},
+            {"name": "WEMOS D1 MINI ESP32"},
             {"name": "TonySX E32 Pro"}
           ],
           "toolsDependencies": [

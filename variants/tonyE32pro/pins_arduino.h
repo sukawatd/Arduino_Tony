@@ -26,6 +26,10 @@
 
 static const uint8_t TX = 1;			// esp pin
 static const uint8_t RX = 3;			// esp pin
+#define              TX1  32			// esp pin
+#define              RX1  34			// esp pin
+#define              TX2  33			// esp pin
+#define              RX2  35			// esp pin
 
 static const uint8_t SDA = 21;			// esp pin
 static const uint8_t SCL = 22;			// esp pin
