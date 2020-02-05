@@ -10,21 +10,18 @@
       },
       "platforms": [
         {
-          "name": "ESP32",
+          "name": "TONY E32",
           "architecture": "esp32",
-          "version": "1.0.0-beta",
-          "category": "ESP32",
+          "version": "1.0.0-alpha",
+          "category": "TONY",
           "help": {
             "online": ""
           },
-          "url": "https://github.com/TonySpaceLtd/Arduino_Tony/releases/download/1.0.0-beta/tony-1.0.0-beta.zip",
-          "archiveFileName": "tony-1.0.0-beta.zip",
-          "checksum": "SHA-256:23b8329738ad602b5feb8adebf0be6a00c11c08ffb2bb8bef9f748beb9134328",
-          "size": "35954430",
+          "url": "https://github.com/TonySpaceLtd/Arduino_Tony/releases/download/1.0.0-alpha/tony-1.0.0-alpha.zip",
+          "archiveFileName": "tony-1.0.0-alpha.zip",
+          "checksum": "SHA-256:ff178eb1a6eb2a1d7e35f90fc4962354b4e2e4f8d2a73e130180f801f0489abc",
+          "size": "35886449",
           "boards": [
-            {"name": "ESP32 Dev Module"},
-            {"name": "WEMOS LoLin32"},
-            {"name": "WEMOS D1 MINI ESP32"},
             {"name": "TonySX E32 Pro"}
           ],
           "toolsDependencies": [
