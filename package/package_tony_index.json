@@ -17,10 +17,10 @@
           "help": {
             "online": ""
           },
-          "url": "https://github.com/TonySpaceLtd/Arduino_Tony/releases/download/1.0.0-beta/tony-1.0.0-beta.zip",
-          "archiveFileName": "tony-1.0.0-beta.zip",
-          "checksum": "SHA-256:23b8329738ad602b5feb8adebf0be6a00c11c08ffb2bb8bef9f748beb9134328",
-          "size": "35954430",
+          "url": "https://github.com/TonySpaceLtd/Arduino_Tony/releases/download/1.0.0-beta2/tony-1.0.0-beta2.zip",
+          "archiveFileName": "tony-1.0.0-beta2.zip",
+          "checksum": "SHA-256:f4a1a14db3d104f7d72e242ae6578d9a6129128007245c9f913367609821a775",
+          "size": "35862823",
           "boards": [
             {"name": "ESP32 Dev Module"},
             {"name": "WEMOS LoLin32"},
