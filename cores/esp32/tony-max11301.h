@@ -201,12 +201,12 @@
 #define GPI_port_16_to_19	0x0c
 //------------------------------------------//
 
-
-#include "Wire.h"
+#include <inttypes.h>
 
 class MAX11301
 {
 public:
+	bool checkAlive();
 	bool Config_deviceControl();
 	void Advance_Config_Port(uint8_t Port, uint8_t Mode, bool AVR_INV, uint8_t RANGE, uint8_t SAMPLES, uint8_t ASSOCIATED);
 	void Basic_Config_Port(uint8_t Port, uint16_t Basic_Con);

@@ -1,8 +1,14 @@
 #include "tony-max11301.h"
 #include "Arduino.h"
+#include "Wire.h"
 
 int16_t DAC_Compensate = 0;  //---- For adjust DAC Output
 
+bool MAX11301::checkAlive() {
+	Wire.beginTransmission(ADDRMAX11301);
+	uint8_t error = Wire.endTransmission();
+	return !error;
+}
 
 bool MAX11301::Config_deviceControl()
 {
