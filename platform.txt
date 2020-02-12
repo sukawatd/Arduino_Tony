@@ -1,4 +1,4 @@
-name=TONY E32 Arduino
+name=TONY Space ESP32
 version=
 
 

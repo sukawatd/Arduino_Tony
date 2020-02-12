@@ -7,13 +7,12 @@
 #define digitalPinIsValidEx(pin)      ((pin) < 60)
 #define digitalPinIsTonyExtend(pin)   ((pin) < 60 && (pin) >= 40)
 
-#define TONY_POWER_MAX11301   12
-
 class tonyGPIO {
 	public:
-		void activeMax();
-		void inactiveMax();
-		bool defaultConfig();
+		bool activateChipIO();		// Turn on power to chip io, return if I2C communicate success or not
+		void deactivateChipIO();	// Turn off power to chip io
+		bool checkChipIO();			// Return if I2C communicate success or not
+		bool defaultConfig();		// max11301 initial config
 		
 		void pinmode(uint8_t pin, uint8_t mode);
 		void digitalwrite(uint8_t pin, uint8_t val);

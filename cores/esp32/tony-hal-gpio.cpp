@@ -1,15 +1,26 @@
 #include "tony-hal-gpio.h"
+#include "pins_arduino.h"
 
 MAX11301 _max11301;
 
-void tonyGPIO::activeMax() {
-	pinMode(TONY_POWER_MAX11301, OUTPUT);
-	digitalWrite(TONY_POWER_MAX11301, HIGH);
+#ifndef CHIPIO_POWER
+#define CHIPIO_POWER 12
+#endif
+
+bool tonyGPIO::activateChipIO() {
+	pinMode(CHIPIO_POWER, OUTPUT);
+	digitalWrite(CHIPIO_POWER, HIGH);
+	delay(10);
+	return _max11301.checkAlive();
 }
 
-void tonyGPIO::inactiveMax() {
-	pinMode(TONY_POWER_MAX11301, OUTPUT);
-	digitalWrite(TONY_POWER_MAX11301, LOW);
+void tonyGPIO::deactivateChipIO() {
+	pinMode(CHIPIO_POWER, OUTPUT);
+	digitalWrite(CHIPIO_POWER, LOW);
+}
+
+bool tonyGPIO::checkChipIO() {
+	return _max11301.checkAlive();
 }
 
 bool tonyGPIO::defaultConfig() {
