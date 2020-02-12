@@ -12,13 +12,13 @@
         {
           "name": "ESP32",
           "architecture": "esp32",
-          "version": "1.0.0-beta2",
+          "version": "1.0.0-beta",
           "category": "ESP32",
           "help": {
             "online": ""
           },
-          "url": "https://github.com/TonySpaceLtd/Arduino_Tony/releases/download/1.0.0-beta2/tony-1.0.0-beta2.zip",
-          "archiveFileName": "tony-1.0.0-beta2.zip",
+          "url": "https://github.com/TonySpaceLtd/Arduino_Tony/releases/download/1.0.0-beta2/tony-1.0.0-beta.zip",
+          "archiveFileName": "tony-1.0.0-beta.zip",
           "checksum": "SHA-256:f4a1a14db3d104f7d72e242ae6578d9a6129128007245c9f913367609821a775",
           "size": "35862823",
           "boards": [
