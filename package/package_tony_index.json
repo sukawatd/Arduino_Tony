@@ -19,8 +19,8 @@
           },
           "url": "https://github.com/TonySpaceLtd/Arduino_Tony/releases/download/1.0.0-beta2/tony-1.0.0-beta2.zip",
           "archiveFileName": "tony-1.0.0-beta2.zip",
-          "checksum": "SHA-256:41d5584a17bd016991074a87197c6aa4a98d0003040ec512e418f7ab94501e46",
-          "size": "35950145",
+          "checksum": "SHA-256:7f2a6e388c7caec55d574339ce64e35ab66b448b73ca7ca6a11ff279ed1250f5",
+          "size": "35967110",
           "boards": [
             {"name": "ESP32 Dev Module"},
             {"name": "WEMOS LoLin32"},
