@@ -12,6 +12,39 @@
         {
           "name": "Tony Space ESP32",
           "architecture": "esp32",
+          "version": "1.0.0-pre3",
+          "category": "TONY",
+          "help": {
+            "online": ""
+          },
+          "url": "https://github.com/TonySpaceLtd/Arduino_Tony/releases/download/1.0.0-alpha2/tony-1.0.0-alpha2.zip",
+          "archiveFileName": "tony-1.0.0-alpha2.zip",
+          "checksum": "SHA-256:71f7509baada6194af261a10dc48c0a009cccf98c5f61d1cc7889631145f0b04",
+          "size": "35924222",
+          "boards": [
+            {"name": "Tony SX E32 Pro"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "Tony",
+              "name": "esptool_py",
+              "version": "2.6.1"
+            },
+            {
+              "packager": "Tony",
+              "name": "mkspiffs",
+              "version": "0.2.3"
+            },
+            {
+              "packager": "Tony",
+              "name": "xtensa-esp32-elf-gcc",
+              "version": "1.22.0-80-g6c4433a-5.2.0"
+            }
+          ]
+        },
+        {
+          "name": "Tony Space ESP32",
+          "architecture": "esp32",
           "version": "1.0.0-pre2",
           "category": "TONY",
           "help": {
